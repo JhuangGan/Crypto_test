@@ -7,10 +7,10 @@ TEST/
 ├── data </br>
     ├──code1_Bitcoin.csv  </br>
     └── ... </br>
-├── figures 用于保存各因子策略的收益率图
-├── crawling_data.py  数据爬取脚本
-├── zis_strategy.py  零投资多空策略脚本
-└── pps.py  Principal Portfolios 组合优化脚本
+├── figures 用于保存各因子策略的收益率图 </br>
+├── crawling_data.py  数据爬取脚本 </br>
+├── zis_strategy.py  零投资多空策略脚本 </br>
+└── pps.py  Principal Portfolios 组合优化脚本 </br>
 
 #### 1. crawling_data.py  数据爬取脚本
 python ./crawling_data.py 即可运行，同时，脚本默认从url的code从0-2000里依序爬取，爬取2020年3月5日到2025年3月5日的数据，仅保留市值大于1million的数据，同时仅保留五年时间完整的数据。最后爬取得到68个加密货币2020年3月5日到2025年3月5日的数据，保存为csv，存放在./data/文件夹下
