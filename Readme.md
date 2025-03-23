@@ -4,9 +4,9 @@ date: 20250307
 说明文档如下，同时文件夹下的jupyternotebook文件为该整体脚本的副本保存
 
 TEST/
-├── data
-    ├──code1_Bitcoin.csv
-    └── ...
+├── data </br>
+    ├──code1_Bitcoin.csv  </br>
+    └── ... </br>
 ├── figures 用于保存各因子策略的收益率图
 ├── crawling_data.py  数据爬取脚本
 ├── zis_strategy.py  零投资多空策略脚本
